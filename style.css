@@ -80,9 +80,13 @@ main{
 .coopers {
     display: flex;
     list-style: none;
+    text-align: center;
 }
 .coopers li img{
-    width: 100%;
+    width: 90%;
+}
+.coopers li  :hover{
+    scale: 1.1;
 }
 
 .text{
