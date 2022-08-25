@@ -50,6 +50,22 @@ a{
 .plano-de-fundo{
     width: 100%;
 }
+.barra{
+    top: 82.5%;
+    position: absolute;
+    height: 10px;
+    background-color: rgba(0, 125, 163, 0.897);
+    animation: load 5s ease;
+    
+}
+@keyframes load{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 100%;
+    }
+}
 
 main{
     margin-top: 3%;
